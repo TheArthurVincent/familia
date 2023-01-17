@@ -1,0 +1,58 @@
+:root {
+  --color1: #913250;
+  --color2: #051a2e;
+  --color3: #d9d9d9;
+}
+
+.imgheader img {
+  width: 120px;
+  height: 90px;
+  padding-right: 22px;
+  padding-left: 22px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header {
+  display: flex;
+  background-color: var(--color3);
+  justify-content: space-between;
+}
+.linksdapag {
+  display: grid;
+  /* background-color: #913250; */
+  align-items: center;
+}
+.listadanav {
+  /* background-color: #051a2e; */
+  gap: 50px;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 22px;
+  list-style: none;
+  display: flex;
+}
+
+.listadanav li {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.listadanav li a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.listadanav li a:hover {
+  color: var(--color2);
+}
+.listadanav li.membrosDaFamilia {
+  color: var(--color2);
+}
+.listadanav li.membrosDaFamilia:hover {
+  color: var(black);
+  cursor: pointer;
+  text-decoration: underline;
+}

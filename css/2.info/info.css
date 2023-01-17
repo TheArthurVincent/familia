@@ -1,0 +1,104 @@
+:root {
+  --color1: #913250;
+  --color2: #051a2e;
+  --color3: #d9d9d9;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 450px;
+}
+
+.fotosfamilia img {
+  cursor: pointer;
+  margin: 0px;
+  max-width: 100%;
+}
+
+.fotosfamilia {
+  margin: 0px;
+  list-style: none;
+  height: 550px;
+  overflow-y: scroll;
+  margin-right: 38px;
+  padding: 0px;
+}
+
+.fotosfamilia::-webkit-scrollbar {
+  width: 30px;
+}
+
+.fotosfamilia::-webkit-scrollbar-thumb {
+  background: var(--color1);
+}
+
+.fotosfamilia::-webkit-scrollbar-track {
+  background: var(--color3);
+}
+
+html::-webkit-scrollbar {
+  width: 20px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--color1);
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--color3);
+}
+
+.dadosfamilia {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: space-between;
+}
+.dadosfamilia h1 {
+  margin: 0;
+  border-radius: 20px;
+  text-align: center;
+  background-color: var(--color1);
+  color: #fff;
+  padding: 44px 0px;
+  font-size: 50px;
+}
+
+.dadosfamilia .dadosindividuais {
+  margin: 16px 0px;
+  border-radius: 20px;
+  text-align: left;
+  line-height: 60px;
+  background-color: var(--color2);
+  color: #fff;
+  padding: 30px;
+  font-size: 20px;
+}
+.dadosfamilia .dadosindividuais p {
+  padding: 0px;
+  margin: 0px;
+}
+.dadosfamilia .dadosindividuais p .sub {
+  text-decoration: underline;
+}
+
+.dadosfamilia .versiculo {
+  padding: 0px;
+  text-align: center;
+  color: var(--color2);
+
+  place-items: end;
+  font-style: italic;
+  /* background-color: #913250; */
+}
+.dadosfamilia .versiculo a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: var(--color2);
+}
+
+.ativo {
+  display: block;
+}
+.inativo {
+  display: none;
+}

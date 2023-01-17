@@ -1,0 +1,33 @@
+:root {
+  --color1: #913250;
+  --color2: #051a2e;
+  --color3: #d9d9d9;
+}
+
+.burger {
+  /* deixei oculto até descobrir */
+  display: none;
+  /* deixei oculto até descobrir */
+  font-size: 2rem;
+  top: -25px;
+  left: 827.29px;
+  z-index: 2;
+  background-color: var(--color3);
+  max-width: fit-content;
+  padding: 1px 2rem;
+  font-style: italic;
+}
+
+.burger ul {
+  list-style: none;
+  padding: 0;
+}
+
+.burger ul li {
+  text-align: left;
+}
+
+.burger ul li a {
+  text-decoration: none;
+  color: var(--color2);
+}
